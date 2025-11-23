@@ -1,0 +1,25 @@
+# --- Python junk ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- uv / virtual environments ---
+.venv/
+.python-version
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+
+# --- Checkpoints / local artifacts ---
+*.faiss
+*.index
+
+# --- Temporary files ---
+tmp/
+*.tmp
+*.bak
+
+# --- Jupyter cache ---
+.ipynb_checkpoints/

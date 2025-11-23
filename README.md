@@ -29,6 +29,16 @@ For every model - prompt combination, the pipeline performs two steps:
 
 2. Evaluation — runs `src/evaluate.py` on both downstream tasks and saves the results.
 
+Dependencies are managed with uv. All required packages are specified in `pyproject.toml`, and exact versions are pinned in `uv.lock`.
+
+To set up the environment and install dependencies:
+
+```bash
+uv sync
+```
+
+This creates (or updates) an isolated environment and installs all packages.
+
 To execute the entire workflow end-to-end:
 
 ```bash
